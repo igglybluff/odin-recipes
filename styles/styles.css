@@ -1,11 +1,13 @@
+/* Font color and font family */
 body{
     color: tomato;
     font-family:"Helvetica";
 }
 
+/* Esto centra la pagina */
 html, body {
-    fontsize: 20px;
-    height: 100-%;
+    font-size: 20px;
+    height: 100%;
 }
 
 html {
