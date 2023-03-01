@@ -1,9 +1,11 @@
 body{
     color: tomato;
+    font-family:"Helvetica";
 }
 
 html, body {
-    height: 100%;
+    fontsize: 20px;
+    height: 100-%;
 }
 
 html {
@@ -14,4 +16,8 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
+}
+
+h1,h2{
+    font-size: 50px;
 }
