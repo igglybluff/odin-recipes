@@ -1,13 +1,18 @@
 /* Font color and font family */
 body{
-    color: tomato;
-    font-family:"Helvetica";
+    color: ##04030f;
+    background-color#f8e9f2 ;
+    font-family: 'Palanquin Dark', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    scroll-behavior: smooth;
 }
 
 /* Esto centra la pagina */
 html, body {
     font-size: 20px;
     height: 100%;
+    border: 5px;
 }
 
 html {
@@ -20,6 +25,73 @@ body {
     vertical-align: middle;
 }
 
-h1,h2{
-    font-size: 50px;
+h1, h2{
+    color: #ff0022;
+   
 }
+
+h1{
+    font-size: 45px;
+    color:#04030f;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+/* Fin del centrado */
+
+/* Padding */
+.padding {
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+  .menuImga{
+   width: 200px;
+  }
+
+  .imgMain{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding-bottom: 50px;
+  }
+  ul{
+    list-style-type: square;
+  }
+
+  ol{
+    list-style: none;
+    padding: 10px;
+  }
+  
+  .lipadding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.ultop {
+    display:inline;
+}
+
+#uldiv li {
+    list-style: none;
+    padding: 10px;
+}
+
+
+#menuh1{
+   text-align: center;
+}
+
+a:link, :visited{
+    text-decoration: none;
+    color: #04030f;
+    font-size: 20px;
+}
+
